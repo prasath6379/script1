@@ -1,0 +1,577 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.coats
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coats:hover
+{
+    color: red;
+}
+
+.row
+{
+    /* border: 1px solid black; */
+    height: 70vh;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.row .col .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats1.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row .col .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row .col .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row .col .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+.col1 .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats2.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.col1  .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col1 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col1 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.col1 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col1 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.col1 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+.col2 .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats3.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.col2  .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col2 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col2 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.col2 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col2 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.col2 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+.row1 
+{
+    /* border: 1px solid black; */
+    height: 70vh;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.row1 .col .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats4.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row1 .col .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row1 .col .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+.row1 .col1 .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats5.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row1 .col1  .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col1 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col1 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row1 .col1 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col1 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col1 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+.row1 .col2 .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats6.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row1 .col2  .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col2 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col2 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row1 .col2 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col2 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col2 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.row2
+{
+    /* border: 1px solid black; */
+    height: 70vh;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.row2 .col .image
+{
+    border: none;
+  /* border: 1px solid; */
+  height: 70%;
+  background-image: url("./coats7.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row2 .col .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row2 .col .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+.row2 .col1 .image
+{
+  /* border: 1px solid; */
+  border: none;
+  height: 70%;
+  background-image: url("./coats9.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.row2 .col1 .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col1 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col1 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row2 .col1 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col1 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col1 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+.row2 .col2 .image
+{
+  /* border: 1px solid; */
+  height: 70%;
+  background-image: url("./coats8.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(128, 128, 128, 0.301);
+  border: none;
+}
+
+.row2 .col2 .fax
+{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col2 .price
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col2 .free
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.row2 .col2 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col2 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col2 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:580px)
+{
+    .row
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 180vh;
+    }
+
+    .row1
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 180vh;
+    }
+
+    .row2
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 180vh;
+    }
+}

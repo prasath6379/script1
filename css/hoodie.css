@@ -1,0 +1,706 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+
+}
+
+.hoodie
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+
+}
+
+.hoodie:hover
+{
+    color: red;
+}
+
+
+
+.row
+{
+    height: 70vh;
+    width: 90vw;
+    /* border: 1px solid ; */
+    margin-left: 5%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+}
+
+.col1
+{
+ /* background-color: cyan; */
+ /* position: relative; */
+ /* grid-row: 1/4; */
+ /* overflow: hidden; */
+}
+
+.image
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    background-color: rgba(128, 128, 128, 0.301);
+    /* border-radius: 20px; */
+    transition-duration: 2s;
+}
+
+
+.free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+.row .col1 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col1 .fa-plus
+{
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.row .col .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+.col2
+{
+
+}
+
+.image1
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+    /* border-radius: 20px; */
+}
+
+
+.row .col2 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col2 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row .col2 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+.col3
+{
+   
+}
+
+.image2
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 3.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    background-color: rgba(128, 128, 128, 0.301);
+    /* border-radius: 20px; */
+}
+
+
+.row .col3 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row .col3 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row .col3 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row1
+{
+    height: 70vh;
+    width: 90vw;
+    /* border: 1px solid ; */
+    margin-left: 5%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+}
+
+.row1 .col4 .image1
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 4.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+    /* border-radius: 20px; */
+}
+
+
+.row1 .col4 .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row1 .col4 .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row1 .col4 .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+
+.row1 .col4 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col4 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col4 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.row1 .col5 .image2
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 5.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    /* border-radius: 20px; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+
+.row1 .col5 .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row1 .col5 .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row1 .col5  .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+.row1 .col5 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col5 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col5 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.row1 .col6 .image3
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 6.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    /* border-radius: 20px; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+
+.row1 .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row1 .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row1 .col6 .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+.row1 .col6 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row1 .col6 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row1 .col6 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.row2
+{
+    height: 70vh;
+    width: 90vw;
+    /* border: 1px solid ; */
+    margin-left: 5%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+}
+
+.row2 .col4 .image1
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 7.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    /* border-radius: 20px; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+
+.row2 .col4  .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row2 .col4 .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row2 .col4  .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+
+.row2 .col4 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col4 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col4 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.row2 .col5 .image2
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 8.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    /* border-radius: 20px; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+
+.row2 .col5 .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row2 .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row2 .col5  .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+.row2 .col5 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col5 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col5 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.row2 .col6 .image3
+{
+    /* border: 1px solid black; */
+    height: 70%;
+    width: 100%;
+    background-image: url("./hoodie\ 9.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    /* background-color: cyan; */
+    /* border-radius: 20px; */
+    
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+
+.row2 .col6  .free
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.row2 .col6  .price
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.row2 .col6  .deli
+{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+
+
+.row2 .col6 .logo
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 .col6 .fa-plus
+{
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.row2 .col6 .fa-minus
+{
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:580px)
+{
+    .row
+    {
+        height: 180vh;
+        /* width: 90vw; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-size: cover;
+      
+    }
+
+    
+    .row1
+    {
+        height: 180vh;
+        /* width: 90vw; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+      
+    }
+
+
+    .row2
+    {
+        height: 180vh;
+        /* width: 90vw; */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-size: cover;
+      
+    }
+    
+}
